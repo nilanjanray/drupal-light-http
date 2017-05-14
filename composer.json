@@ -1,0 +1,12 @@
+{
+    "name": "root/composer-test",
+    "require": {
+      "vendor/my-private-repo": "dev-master"
+    },
+    "repositories": {
+        "nilanjan": {
+            "type": "vcs",
+            "url": "https://github.com/nilanjanray/drupal-light-http.git"
+        }
+    }
+}
